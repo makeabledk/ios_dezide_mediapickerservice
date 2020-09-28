@@ -1,0 +1,22 @@
+platform :ios, '10.0'
+use_frameworks!
+
+# Pods
+def pods
+  
+end
+
+# Post install
+post_install do |installer|
+  installer.pods_project.build_configuration_list.build_configurations.each do |configuration|
+  	configuration.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '10.0'
+    configuration.build_settings['CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES'] = 'YES'
+    configuration.build_settings.delete('CODE_SIGNING_ALLOWED')
+    configuration.build_settings.delete('CODE_SIGNING_REQUIRED')
+  end
+end
+
+# Targets
+target 'media-picker-service' do
+  pods
+end

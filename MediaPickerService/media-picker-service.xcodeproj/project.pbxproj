@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C1B0AC825214F3C008510B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C1B0AB825214F3C008510B7 /* LaunchScreen.storyboard */; };
+		8C1B0AC925214F3C008510B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C1B0ABA25214F3C008510B7 /* Main.storyboard */; };
+		8C1B0ACA25214F3C008510B7 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1B0ABC25214F3C008510B7 /* TestViewController.swift */; };
+		8C1B0ACB25214F3C008510B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1B0ABD25214F3C008510B7 /* AppDelegate.swift */; };
+		8C1B0ACD25214F3C008510B7 /* MediaPickerServiceSourceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1B0AC025214F3C008510B7 /* MediaPickerServiceSourceCollectionViewCell.swift */; };
+		8C1B0ACE25214F3C008510B7 /* MediaPickerServiceElementCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C1B0AC125214F3C008510B7 /* MediaPickerServiceElementCollectionViewCell.xib */; };
+		8C1B0ACF25214F3C008510B7 /* MediaPickerServiceSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1B0AC225214F3C008510B7 /* MediaPickerServiceSettings.swift */; };
+		8C1B0AD025214F3C008510B7 /* MediaPickerServiceSourceCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C1B0AC325214F3C008510B7 /* MediaPickerServiceSourceCollectionViewCell.xib */; };
+		8C1B0AD125214F3C008510B7 /* MediaPickerServiceElementCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1B0AC425214F3C008510B7 /* MediaPickerServiceElementCollectionViewCell.swift */; };
+		8C1B0AD225214F3C008510B7 /* MediaPickerServiceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C1B0AC525214F3C008510B7 /* MediaPickerServiceViewController.xib */; };
+		8C1B0AD325214F3C008510B7 /* MediaPickerServiceAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C1B0AC625214F3C008510B7 /* MediaPickerServiceAssets.xcassets */; };
+		8C1B0AD425214F3C008510B7 /* MediaPickerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1B0AC725214F3C008510B7 /* MediaPickerService.swift */; };
+		8F72B0F3C5B297A50EAADBCA /* Pods_media_picker_service.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD2CB9DF83F490D6253CC28 /* Pods_media_picker_service.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2CD2CB9DF83F490D6253CC28 /* Pods_media_picker_service.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_media_picker_service.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71C1BF21430FF80681308B59 /* Pods-media-picker-service.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-media-picker-service.release.xcconfig"; path = "Target Support Files/Pods-media-picker-service/Pods-media-picker-service.release.xcconfig"; sourceTree = "<group>"; };
+		8C1B0AB925214F3C008510B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C1B0ABB25214F3C008510B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C1B0ABC25214F3C008510B7 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		8C1B0ABD25214F3C008510B7 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8C1B0ABE25214F3C008510B7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C1B0AC025214F3C008510B7 /* MediaPickerServiceSourceCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaPickerServiceSourceCollectionViewCell.swift; sourceTree = "<group>"; };
+		8C1B0AC125214F3C008510B7 /* MediaPickerServiceElementCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MediaPickerServiceElementCollectionViewCell.xib; sourceTree = "<group>"; };
+		8C1B0AC225214F3C008510B7 /* MediaPickerServiceSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaPickerServiceSettings.swift; sourceTree = "<group>"; };
+		8C1B0AC325214F3C008510B7 /* MediaPickerServiceSourceCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MediaPickerServiceSourceCollectionViewCell.xib; sourceTree = "<group>"; };
+		8C1B0AC425214F3C008510B7 /* MediaPickerServiceElementCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaPickerServiceElementCollectionViewCell.swift; sourceTree = "<group>"; };
+		8C1B0AC525214F3C008510B7 /* MediaPickerServiceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MediaPickerServiceViewController.xib; sourceTree = "<group>"; };
+		8C1B0AC625214F3C008510B7 /* MediaPickerServiceAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MediaPickerServiceAssets.xcassets; sourceTree = "<group>"; };
+		8C1B0AC725214F3C008510B7 /* MediaPickerService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaPickerService.swift; sourceTree = "<group>"; };
+		8C6E739422258A93003E1834 /* media-picker-service.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "media-picker-service.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9E6D1BEAB772490B333187A /* Pods-media-picker-service.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-media-picker-service.debug.xcconfig"; path = "Target Support Files/Pods-media-picker-service/Pods-media-picker-service.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C6E739122258A93003E1834 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F72B0F3C5B297A50EAADBCA /* Pods_media_picker_service.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38F5361E7D77F7BFB7184197 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C9E6D1BEAB772490B333187A /* Pods-media-picker-service.debug.xcconfig */,
+				71C1BF21430FF80681308B59 /* Pods-media-picker-service.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8C1B0AB625214F3C008510B7 /* MediaPickerService */ = {
+			isa = PBXGroup;
+			children = (
+				8C1B0AB725214F3C008510B7 /* Example */,
+				8C1B0ABF25214F3C008510B7 /* Source */,
+			);
+			path = MediaPickerService;
+			sourceTree = "<group>";
+		};
+		8C1B0AB725214F3C008510B7 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				8C1B0AB825214F3C008510B7 /* LaunchScreen.storyboard */,
+				8C1B0ABA25214F3C008510B7 /* Main.storyboard */,
+				8C1B0ABC25214F3C008510B7 /* TestViewController.swift */,
+				8C1B0ABD25214F3C008510B7 /* AppDelegate.swift */,
+				8C1B0ABE25214F3C008510B7 /* Info.plist */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		8C1B0ABF25214F3C008510B7 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				8C1B0AC025214F3C008510B7 /* MediaPickerServiceSourceCollectionViewCell.swift */,
+				8C1B0AC125214F3C008510B7 /* MediaPickerServiceElementCollectionViewCell.xib */,
+				8C1B0AC225214F3C008510B7 /* MediaPickerServiceSettings.swift */,
+				8C1B0AC325214F3C008510B7 /* MediaPickerServiceSourceCollectionViewCell.xib */,
+				8C1B0AC425214F3C008510B7 /* MediaPickerServiceElementCollectionViewCell.swift */,
+				8C1B0AC525214F3C008510B7 /* MediaPickerServiceViewController.xib */,
+				8C1B0AC625214F3C008510B7 /* MediaPickerServiceAssets.xcassets */,
+				8C1B0AC725214F3C008510B7 /* MediaPickerService.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		8C6E738B22258A93003E1834 = {
+			isa = PBXGroup;
+			children = (
+				8C1B0AB625214F3C008510B7 /* MediaPickerService */,
+				8C6E739522258A93003E1834 /* Products */,
+				38F5361E7D77F7BFB7184197 /* Pods */,
+				D9A99DA80BAA3B79E41404EF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8C6E739522258A93003E1834 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C6E739422258A93003E1834 /* media-picker-service.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9A99DA80BAA3B79E41404EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CD2CB9DF83F490D6253CC28 /* Pods_media_picker_service.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C6E739322258A93003E1834 /* media-picker-service */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C6E73A622258A95003E1834 /* Build configuration list for PBXNativeTarget "media-picker-service" */;
+			buildPhases = (
+				6AAE6D62A5FC4C01FEC4115E /* [CP] Check Pods Manifest.lock */,
+				8C6E739022258A93003E1834 /* Sources */,
+				8C6E739122258A93003E1834 /* Frameworks */,
+				8C6E739222258A93003E1834 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "media-picker-service";
+			productName = "media-picker-service";
+			productReference = 8C6E739422258A93003E1834 /* media-picker-service.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C6E738C22258A93003E1834 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = makeable;
+				TargetAttributes = {
+					8C6E739322258A93003E1834 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 8C6E738F22258A93003E1834 /* Build configuration list for PBXProject "media-picker-service" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C6E738B22258A93003E1834;
+			productRefGroup = 8C6E739522258A93003E1834 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C6E739322258A93003E1834 /* media-picker-service */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C6E739222258A93003E1834 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C1B0ACE25214F3C008510B7 /* MediaPickerServiceElementCollectionViewCell.xib in Resources */,
+				8C1B0AC825214F3C008510B7 /* LaunchScreen.storyboard in Resources */,
+				8C1B0AD325214F3C008510B7 /* MediaPickerServiceAssets.xcassets in Resources */,
+				8C1B0AC925214F3C008510B7 /* Main.storyboard in Resources */,
+				8C1B0AD225214F3C008510B7 /* MediaPickerServiceViewController.xib in Resources */,
+				8C1B0AD025214F3C008510B7 /* MediaPickerServiceSourceCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6AAE6D62A5FC4C01FEC4115E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-media-picker-service-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C6E739022258A93003E1834 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C1B0ACB25214F3C008510B7 /* AppDelegate.swift in Sources */,
+				8C1B0AD125214F3C008510B7 /* MediaPickerServiceElementCollectionViewCell.swift in Sources */,
+				8C1B0ACD25214F3C008510B7 /* MediaPickerServiceSourceCollectionViewCell.swift in Sources */,
+				8C1B0ACF25214F3C008510B7 /* MediaPickerServiceSettings.swift in Sources */,
+				8C1B0AD425214F3C008510B7 /* MediaPickerService.swift in Sources */,
+				8C1B0ACA25214F3C008510B7 /* TestViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8C1B0AB825214F3C008510B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C1B0AB925214F3C008510B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8C1B0ABA25214F3C008510B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C1B0ABB25214F3C008510B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C6E73A422258A95003E1834 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C6E73A522258A95003E1834 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C6E73A722258A95003E1834 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9E6D1BEAB772490B333187A /* Pods-media-picker-service.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P3JM6QYVUP;
+				INFOPLIST_FILE = MediaPickerService/Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dk.makeable.media-picker-service";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8C6E73A822258A95003E1834 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71C1BF21430FF80681308B59 /* Pods-media-picker-service.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P3JM6QYVUP;
+				INFOPLIST_FILE = MediaPickerService/Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dk.makeable.media-picker-service";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C6E738F22258A93003E1834 /* Build configuration list for PBXProject "media-picker-service" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C6E73A422258A95003E1834 /* Debug */,
+				8C6E73A522258A95003E1834 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C6E73A622258A95003E1834 /* Build configuration list for PBXNativeTarget "media-picker-service" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C6E73A722258A95003E1834 /* Debug */,
+				8C6E73A822258A95003E1834 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C6E738C22258A93003E1834 /* Project object */;
+}
